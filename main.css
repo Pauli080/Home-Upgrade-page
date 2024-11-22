@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: #50f050;
+    font-size: 11rem;
+}
+
+
+.home-upgrade-01 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.home-upgrade {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid black;
+    background: black;
+    color: white;
+}
+
+.Upgrade {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    
+}
+
+.Upgrade h1 {
+    font-size: 10rem;
+    margin-left: 5rem;
+}
+
+.Award {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.Award p {
+    font-size: 1.5rem;
+    margin-left: 4rem;
+}
+
+
+.Award h3 {
+    font-size: 1.5rem;
+    margin-left: 4rem;
+}
+
+
+.Upgrade {
+    display: flex;
+    flex-direction: column;
+}
+
+.big-house {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.image {
+    
+    width: 90%; 
+}
+
+.our-invsetors {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cirle {
+    width: 90%;
+}
+
+.investors {
+    width: 40%;
+    margin-right: 4rem;
+}
+
+.We-create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    
+}
+
+.We-create h3 {
+    font-size: 2rem;
+}
+
+.image-1 {
+    width: 60rem;
+    margin: 2rem;
+}
+
+.project {
+    font-size: 2rem;
+    color: #50f050;
+    margin: 0rem 0rem 0rem 7rem;
+    border-bottom: 1px solid white;
+}
+
+.Crescent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #748d74;
+}
+
+.Residential {
+    margin: 2rem 12rem 4rem 2rem;
+}
+
+.forrest {
+    margin: 7rem;
+}
+
+.our-success {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    margin: 1rem;
+}
+
+.countries {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    width: 90%;
+    margin: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.money {
+    font-size: 10rem;
+}
+
+.the-future {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
