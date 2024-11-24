@@ -1,16 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 * {
+    
     margin: 0;
     box-sizing: border-box;
 }
 
+
+
 main {
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", serif;
 }
 
-span {
+.realspace {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.collections {
+    display: flex;
+}
+
+.collections p {
+    display: flex;
+    margin: 1rem;
+}
+
+.plus {
     color: #50f050;
     font-size: 11rem;
+    margin-left: 5rem;
 }
 
 
@@ -34,12 +60,20 @@ span {
     display: flex;
     flex-direction: row;
     width: 60%;
+    margin-top: 7rem;
     
 }
 
-.Upgrade h1 {
+.Upgrade h2 {
     font-size: 10rem;
     margin-left: 5rem;
+}
+
+.home {
+    position: absolute;
+    top: 18.9rem;
+    right: 41.5rem;
+    
 }
 
 .Award {
@@ -49,14 +83,19 @@ span {
 }
 
 .Award p {
-    font-size: 1.5rem;
-    margin-left: 4rem;
+    font-size: 1rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
 }
 
 
 .Award h3 {
-    font-size: 1.5rem;
-    margin-left: 4rem;
+    font-size: 2.5rem;
+    margin: 0rem 0rem 2rem 7rem;
+}
+
+.award-image {
+    margin: 0rem 3rem 0rem 3rem;
 }
 
 
@@ -74,18 +113,63 @@ span {
 
 .image {
     
-    width: 90%; 
+    width: 80%; 
+    margin: 1rem;
 }
 
 .our-invsetors {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 .cirle {
     width: 90%;
 }
+
+.circle-wrapper {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle-text {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-90deg);
+  }
+
+  .circle-text span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform-origin: 0 100px; /* Set the point of rotation */
+    transform: rotate(calc(360deg / 12 * var(--i)));
+  }
+
+  .circle-text span:nth-child(1) { --i: 0; }
+  .circle-text span:nth-child(2) { --i: 1; }
+  .circle-text span:nth-child(3) { --i: 2; }
+  .circle-text span:nth-child(4) { --i: 3; }
+  .circle-text span:nth-child(5) { --i: 4; }
+  .circle-text span:nth-child(6) { --i: 5; }
+  .circle-text span:nth-child(7) { --i: 6; }
+  .circle-text span:nth-child(8) { --i: 7; }
+  .circle-text span:nth-child(9) { --i: 8; }
+  .circle-text span:nth-child(10) { --i: 9; }
+  .circle-text span:nth-child(11) { --i: 10; }
+  .circle-text span:nth-child(12) { --i: 11; }
+  
 
 .investors {
     width: 40%;
@@ -105,6 +189,14 @@ span {
     font-size: 2rem;
 }
 
+.We-create p {
+    color: green;
+}
+
+.living {
+    margin-left: 1rem;
+}
+
 .image-1 {
     width: 60rem;
     margin: 2rem;
@@ -115,6 +207,10 @@ span {
     color: #50f050;
     margin: 0rem 0rem 0rem 7rem;
     border-bottom: 1px solid white;
+}
+
+.project p {
+    margin-bottom: 3rem;
 }
 
 .Crescent {
@@ -132,6 +228,42 @@ span {
     margin: 7rem;
 }
 
+.forrest-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 7rem;
+    border: 2px solid green;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+.forrest-link01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 7rem;
+    border: 2px solid green;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 2rem;
+    background: #50f050;
+}
+
+.view-project {
+    color: #50f050;
+    text-decoration: none;
+}
+
+.view-project01 {
+    color: black;
+    background: #50f050;
+    text-decoration: none;
+}
+
 .our-success {
     display: flex;
     align-items: center;
@@ -146,18 +278,199 @@ span {
     justify-content: space-between;
     font-size: 2rem;
     width: 90%;
-    margin: 2rem;
+    margin: 5rem;
     border-bottom: 1px solid black;
+    padding-bottom: 4rem;
 }
 
 .money {
     font-size: 10rem;
 }
 
-.the-future {
+.the-future h5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
+}
+
+.the-future p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.whether {
+    display: flex;
+    width: 90%;
+    position: relative;
+}
+
+.whether-whit-img {
+    width: 40%;
+    margin: 3rem;
+
+}
+
+.kitchen-img {
+    position: absolute;
+    top: 37rem;
+    right: 30rem;
+    width: 20rem;
+}
+
+.stairs {
+    width: 50%;
+    margin-top: 10rem;
+    
+}
+
+.sitting-room {
+    width: 80%;
+}
+
+.investing {
+    background: black;
+    color: antiquewhite;
+    margin: 7rem 1rem 1rem 1rem;
+    width: 100%;
+}
+
+.investing-img {
+    display: flex;
+}
+
+.investing-001 {
+    margin: 1rem;
+    width: 50%;
+}
+
+.investing-head {
+    margin: 1rem;
+}
+
+.investing-head-1 h4 {
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.investing-head-1 p {
+    margin: 1rem;
+    width: 20rem;
+    color: #748d74;
+}
+
+.investing-head p {
+    width: 20rem;
+    color: #748d74;
+}
+
+.investing-img-2 {
+    width: 50%;
+}
+
+.investing-image {
+    width: 80%;
+    margin: 3rem;
+}
+
+.testmonals {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    margin: 3rem;
+    width: 60%;
+}
+
+.testmonals02 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    margin: 3rem;
+    width: 60%;
+}
+
+.absolutely {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 3rem;
+    font-size: 2rem;
+}
+
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    margin: 4rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 80px;
+}
+
+.absolutely-next {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    margin: 1rem;
+    width: 90%;
+}
+
+.footer01 {
+    margin: 1rem;
+    width: 40%;
+    /* border: 2px solid; */
+}
+
+.footer01 h3 {
+    margin: 1rem;
+   
+}
+
+.hello {
+    color: #748d74;
+    margin: 1rem;
+}
+
+.hello2 {
+    color: #748d74;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #50f050;
+    border: 2px solid green;
+    width: 80%;
+    margin: auto;
+    border-radius: 2rem;
+    margin-top: 5rem;
+}
+
+.register {
+    margin: 1rem 1rem 0rem 1rem;
+    
+}
+
+.register p {
+    margin-bottom: 1rem;
+    
+}
+
+.your-name {
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+.your-name p {
+    margin-top: 1rem;
+    border-bottom: 1px solid;
 }
