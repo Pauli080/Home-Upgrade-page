@@ -264,6 +264,10 @@ main {
     text-decoration: none;
 }
 
+.skewed {
+    transform: skew(10deg);
+}
+
 .our-success {
     display: flex;
     align-items: center;
